@@ -1,0 +1,17 @@
+package excel;
+import java.io.*;  
+public class creation {
+
+	public static void main(String[] args) throws Exception { 
+		  
+		  
+		String filepath = System.getProperty("user.dir")+"\\src\\main\\resources\\creation1.xlsx";
+
+		FileOutputStream fileOut = new FileOutputStream(filepath);  
+		fileOut.close();  
+		System.out.println("Excel file has been generated successfully.");  
+		}
+
+	}
+
+
