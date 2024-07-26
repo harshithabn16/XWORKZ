@@ -111,6 +111,7 @@ class Matrimony {
 	 
  }
  class Application {
+	 int num;
 	 public Application()
 	 {
 		 System.out.println("Created Application");
@@ -118,6 +119,7 @@ class Matrimony {
 	 
  }
  class Fruit {
+	 String name;
 	 public Fruit()
 	 {
 		 System.out.println("Created Fruit");
@@ -125,6 +127,7 @@ class Matrimony {
 	 
  }
  class  Juice{
+	 int quntity;
 	 public Juice()
 	 {
 		 System.out.println("Created Juice");
@@ -132,6 +135,7 @@ class Matrimony {
 	 
  }
  class place {
+	 String name;
 	 public place()
 	 {
 		 System.out.println("Created place");
@@ -139,6 +143,7 @@ class Matrimony {
 	 
  }
   class AlcoholBrand {
+	  String brand;
 	 public AlcoholBrand()
 	 {
 		 System.out.println("Created AlcoholBrand");
@@ -146,6 +151,8 @@ class Matrimony {
 	 
  }
   class Candy {
+	  String name;
+	  int num;
 	 public Candy()
 	 {
 		 System.out.println("Created Candy");
@@ -153,6 +160,7 @@ class Matrimony {
 	 
  }
   class Medicine {
+	  String name;
 	 public Medicine()
 	 {
 		 System.out.println("Created Medicine");
@@ -160,6 +168,8 @@ class Matrimony {
 	 
  }
   class Food {
+	  String name;
+	  double price;
 	 public Food()
 	 {
 		 System.out.println("Created Food");
@@ -169,4 +179,18 @@ class Matrimony {
 
  
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
